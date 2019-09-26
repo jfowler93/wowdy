@@ -1,4 +1,13 @@
 .card {
-	padding: 10px;
-	display: inline-block;
+	padding: 4px;
+    display: inline-block;
+    background-color: rgba(197, 46, 235, 0.233);
+    column-gap: 2px
+}
+
+body {
+    background-color: black
+}
+.jumbotron {
+    background-color: transparent
 }

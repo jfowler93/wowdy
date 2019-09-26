@@ -20,7 +20,7 @@ $(document).ready(function () {
 
                 var showImage = $("<img>");
                 showImage.attr("src", results[i].images.fixed_height.url)
-                    .attr("src", results[i].images.fixed_height.url)
+                    .attr("src", results[i].images.fixed_width.url)
                     .attr('data-animate', results[i].images.fixed_height.url)
                     .attr('data-state', "animate")
                     .addClass("showImage");
